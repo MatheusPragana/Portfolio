@@ -108,14 +108,23 @@ body {
     transform: scale(1.1);
 }
 
-.home .container-foto .foto {
-    max-width: 500px;
+.home .container-foto  {
+   
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
+ 
 }
 
-.home .container-foto img {
-    width: 100%;
+#ceu img{
+    
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
     border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
     
 }
 
@@ -123,6 +132,16 @@ body {
     background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0;
+    object-fit: cover;
+    position: relative;
+    
 }
 
 .projetos {
